@@ -12,3 +12,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+}
