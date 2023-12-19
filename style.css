@@ -1,6 +1,7 @@
 body {
     display: flex;
     height: 100vh;
+    gap: 2rem;
 }
 
 .star {
@@ -11,9 +12,29 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .input_box {
     display: flex;
     flex-direction: column;
+}
+
+.field {
+    width: 70%;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
