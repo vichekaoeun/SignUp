@@ -18,32 +18,32 @@
 
                 <div class="input_box">
                     <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name">
+                    <input type="text" id="first_name" name="first_name" required>
                 </div>
 
                 <div class="input_box">
                     <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <input type="text" id="last_name" name="last_name" required>
                 </div>
 
                 <div class="input_box">
                     <label for="Email">EMAIL</label>
-                    <input type="email" id="Email" name="Email">
+                    <input type="email" id="Email" name="Email" required>
                 </div>
 
                 <div class="input_box">
                     <label for="phone_number">PHONE NUMBER</label>
-                    <input type="number" id="phone_number" name="phone_number">
+                    <input type="number" id="phone_number" name="phone_number" min="10" required>
                 </div>
 
                 <div class="input_box">
-                    <label for="Password">PASSWORD</label>
-                    <input type="text" id="Password" name="Password">
+                    <label for="Password">*PASSWORD</label>
+                    <input type="password" id="Password" name="Password" required>
                 </div>
 
                 <div class="input_box">
-                    <label for="Confirm">CONFIRM PASSWORD</label>
-                    <input type="text" id="Confirm" name="Confirm">
+                    <label for="Confirm">*CONFIRM PASSWORD</label>
+                    <input type="password" id="Confirm" name="Confirm" required>
                 </div>
                 </div>
                 <button class="create_btn" type="submit">Create Account</button>
@@ -54,5 +54,6 @@
             <p>Already have an account?</p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

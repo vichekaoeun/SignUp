@@ -32,6 +32,20 @@ body {
     flex-direction: column;
 }
 
+input {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+input:valid {
+    border-color: greenyellow;
+}
+
+input:invalid {
+    border-color: red;
+}
+
 .input {
     display: flex;
     flex-wrap: wrap;
