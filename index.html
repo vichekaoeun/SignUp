@@ -12,8 +12,10 @@
     </div>
     <div class="content">
         <div class="signup">
-            <fieldset class="field">
+            <form class="field" action="https://httpbin.org/post" method="post">
                 <legend>Sign Up</legend>
+                <div class="input">
+
                 <div class="input_box">
                     <label for="first_name">FIRST NAME</label>
                     <input type="text" id="first_name" name="first_name">
@@ -43,11 +45,12 @@
                     <label for="Confirm">CONFIRM PASSWORD</label>
                     <input type="text" id="Confirm" name="Confirm">
                 </div>
+                </div>
+                <button class="create" type="submit">Create Account</button>
 
-            </fieldset>
+            </form>
         </div>
         <div class="signin">
-            <button class="create">Create Account</button>
             <p>Already have an account?</p>
         </div>
     </div>

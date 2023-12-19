@@ -4,6 +4,13 @@ body {
     gap: 2rem;
 }
 
+.bg {
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .star {
     height: 100%;
     width: 100%;
@@ -11,9 +18,11 @@ body {
 
 .content {
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
+    align-items: center;
 }
 
 .input_box {
@@ -21,8 +30,12 @@ body {
     flex-direction: column;
 }
 
-.field {
-    width: 70%;
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .signup {
@@ -30,6 +43,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 40%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .signin {
